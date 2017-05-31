@@ -750,7 +750,7 @@ img {
 .app-download {
   margin: 0 auto;
   background-color: #2c3b4c;
-  background-image: url(../../img/bg-mobile@1x.jpg);
+  background-image: url(img/bg-mobile@1x.jpg);
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
@@ -810,7 +810,7 @@ img {
 }
 @media (min-width: 700px) {
   .app-download {
-    background-image: url(../../img/bg-tablet@1x.jpg);
+    background-image: url(img/bg-tablet@1x.jpg);
   }
   .app-download__wrapper {
     position: relative;
@@ -852,7 +852,7 @@ img {
 }
 @media (min-width: 1200px) {
   .app-download {
-    background-image: url(../../img/bg-desktop.jpg);
+    background-image: url(img/bg-desktop.jpg);
   }
   .app-download__photo {
     min-height: 853px;
