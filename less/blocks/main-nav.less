@@ -3,9 +3,9 @@
   background: #2c3b4c;
 
   &__list {
-    .container();
     .clearfix();
     padding: 0;
+    margin: 0;
     list-style: none;
   }
   &__item {
@@ -42,6 +42,7 @@
       top: 0;
       left: 0;
       right: 0;
+      border: none;
       background-color: rgba(29, 38, 49, 0.3);
     }
 
@@ -91,6 +92,10 @@
 
 
   &--nojs {
+    .main-header__top {
+      position: static;
+      background: #283645;
+    }
 
     .main-header__toggle {
       display: none;
@@ -106,9 +111,7 @@
 
   .main-nav {
 
-    &__list {
-      width: 700px;
-    }
+
   }
 }
 
@@ -119,6 +122,8 @@
   }
 
   .main-nav {
+    .container();
+    position: relative;
 
     &--closed {
       .main-header__top {
@@ -126,7 +131,7 @@
         top: 0;
         left: 0;
         right: 0;
-        background-color: rgba(29, 38, 49, 0.3);
+        background-color: rgba(15, 20, 25, 0.3);
       }
 
       .main-nav {
@@ -140,7 +145,7 @@
         top: 0;
         left: 0;
         right: 0;
-        background-color: rgba(29, 38, 49, 0.3);
+        background-color: rgba(15, 20, 25, 0.3);
       }
 
       .main-nav {
@@ -149,10 +154,10 @@
     }
 
     &__list {
-      .container();
+
       position: absolute;
       top: 0;
-      right: 162px;
+      right: 0;
       text-align: right;
       font-size: 0;
     }

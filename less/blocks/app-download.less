@@ -1,9 +1,10 @@
 .app-download {
-  margin: 0 auto;
-  background-color: #2c3b4c;
+
   background-image: url(../../img/bg-mobile@1x.jpg);
   background-repeat: no-repeat;
   background-position: 50% 0;
+  background-size: cover;
+  background-color: #1d2631;;
 
   &__wrapper {
     .container();
@@ -11,8 +12,7 @@
 
   &__photo {
     position: relative;
-    min-height: 458px;
-
+    min-height: 460px;
     & img {
       position: absolute;
       bottom: 0;
@@ -20,18 +20,14 @@
     }
   }
 
-  &__slogan {
-    display: none;
-  }
-
   &__icons {
-    list-style: none;
     margin: 0 auto;
+    margin-bottom: 20px;
     padding: 0;
+    list-style: none;
     font-size: 0;
     line-height: 0;
     text-align: center;
-    margin-bottom: 20px;
   }
 
   &__icon {
@@ -41,13 +37,18 @@
   }
 
   &__description {
-    padding-top: 27px;
+    float: left;
+    padding-top: 24px;
     background: #1d2631;
+    padding-bottom: 33px;
+  }
+
+  &__slogan {
+    display: none;
   }
 
   &__text {
     padding: 0 20px;
-    padding-bottom: 30px;
     margin: 0;
     font-family: "OpenSansLight", Arial, sans-serif;
     font-size: 14px;
@@ -60,24 +61,31 @@
 @media @tablet-width {
 
   .app-download {
-
+    position: relative;
+    z-index: -10;
+    margin: auto;
     background-image: url(../../img/bg-tablet@1x.jpg);
+
 
     &__wrapper {
       position: relative;
+      min-height: 730px;
     }
+
 
     &__photo {
-      min-height: 730px;
-
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      bottom: 0;
       & img {
-        left: 145px;
+        position: static;
+        display: block;
       }
     }
+
     &__description {
-      position: absolute;
-      top: 205px;
-      left: 0;
+      padding-top: 208px;
       margin-right: 320px;
       background: none;
     }
@@ -99,11 +107,10 @@
     }
 
     &__text {
+      padding: 0;
       font-family: "OpenSansLight", Arial, sans-serif;
       font-size: 18px;
       line-height: 24px;
-      padding: 0;
-      padding-bottom: 86px;
     }
   }
 }
@@ -112,9 +119,15 @@
 
   .app-download {
       background-image: url(../../img/bg-desktop.jpg);
+      min-height: 853px;
+
+    &__wrapper {
+      position: relative;
+      min-height: 853px;
+    }
 
     &__photo {
-      min-height: 853px;
+      right: 30px;
 
       & img {
         left: 345px;
@@ -122,15 +135,15 @@
     }
 
     &__description {
-      top: 220px;
+        padding-top: 220px;
       margin-right: 640px;
       background: none;
     }
 
     &__slogan {
+      padding: 0 5px;
       font-size: 50px;
       line-height: 59px;
-      padding: 0 5px;
     }
 
     &__icons {
