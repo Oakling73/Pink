@@ -77,6 +77,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bg-skew-gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2451,
+		"inputAbbreviatedPath": "\/img\/bg-skew-gray.png",
+		"outputAbbreviatedPath": "\/img\/bg-skew-gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bg-skew-gray_d.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2365,
+		"inputAbbreviatedPath": "\/img\/bg-skew-gray_d.png",
+		"outputAbbreviatedPath": "\/img\/bg-skew-gray_d.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bg-tablet@1x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -209,7 +231,7 @@
 		},
 	"\/less\/blocks\/app-download.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -229,7 +251,7 @@
 		},
 	"\/less\/blocks\/btn.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -249,7 +271,7 @@
 		},
 	"\/less\/blocks\/features.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -269,7 +291,7 @@
 		},
 	"\/less\/blocks\/main-header.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -289,7 +311,7 @@
 		},
 	"\/less\/blocks\/main-nav.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -318,7 +340,7 @@
 		},
 	"\/less\/global\/mixins.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -347,7 +369,7 @@
 		},
 	"\/less\/global\/scaffolding.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -367,7 +389,7 @@
 		},
 	"\/less\/global\/variables.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -387,7 +409,7 @@
 		},
 	"\/less\/main.less": {
 		"allowInsecureImports": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
@@ -1063,7 +1085,7 @@
 	"lessAutoOutputPathReplace1": "less",
 	"lessAutoOutputPathReplace2": "css",
 	"lessAutoOutputPathStyle": 2,
-	"lessCreateSourceMap": 0,
+	"lessCreateSourceMap": 1,
 	"lessDisableJavascript": 0,
 	"lessIeCompatibility": 1,
 	"lessOutputStyle": 0,

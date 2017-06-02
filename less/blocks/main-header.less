@@ -3,15 +3,15 @@
   position: relative;
   z-index: 100;
 
-  &__top {
-    background: #2c3b4c;
-    border-bottom: 1px solid #000;
-  }
-
   &__wrapper {
     .container();
     .clearfix();
     padding: 20px 20px;
+  }
+
+  &__top {
+    background: #2c3b4c;
+    border-bottom: 1px solid #000;
   }
 
   &__logo {
@@ -48,9 +48,8 @@
   }
 }
 
-
-
 @media @tablet-width {
+
 
   .main-header {
 
@@ -59,6 +58,7 @@
       padding-bottom: 27px;
     }
 
+
     &__logo {
       position: relative;
       top: -15px;
@@ -66,12 +66,5 @@
       height: 40px;
     }
   }
-}
 
-@media @desktop-width {
-
-  .main-header {
-
-
-  }
 }
