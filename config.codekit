@@ -143,17 +143,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-header-mobile.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 766,
-		"inputAbbreviatedPath": "\/img\/logo-header-mobile.png",
-		"outputAbbreviatedPath": "\/img\/logo-header-mobile.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/phone-screen-1_d.png": {
 		"fileType": 32768,
 		"ignore": 0,

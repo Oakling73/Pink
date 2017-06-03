@@ -8,126 +8,132 @@
   <title>Document</title>
 </head>
 <body>
-<header class="main-header main-nav--closed main-nav--nojs">
-      <div class="main-header__top">
-          <div class="main-header__wrapper">
+  <header class="main-header main-header--menu-closed main-header--nojs">
+    <div class="main-header__wrapper">
+
+        <div class="main-header__top">
+          <a href="index.html">
             <picture>
               <source media="(min-width:1200px)" srcset="img/logo-header-desktop.svg">
               <source media="(min-width:700px)" srcset="img/logo-header-tablet.svg">
 
-              <img class="main-header__logo" src="img/logo-header-mobile.png" alt="PINK">
+              <img class="main-header__logo" src="img/logo-header-mobile.svg" alt="PINK">
             </picture>
-            <button class="btn main-header__toggle" type="button"></button>
-          </div>
-      </div>
+          </a>
 
-    <nav class="main-nav">
+          <button class="btn btn--toggle" type="button">Меню</button>
+        </div>
 
-      <ul class="main-nav__list">
-        <li class="main-nav__item"><a href="#">Главная</a></li>
-        <li class="main-nav__item"><a href="#">Фотографии</a></li>
-        <li class="main-nav__item"><a href="#">Конкурс</a></li>
-        <li class="main-nav__item"><a href="#">HTML Academy</a></li>
-      </ul>
-    </nav>
-</header>
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="#">Главная</a></li>
+            <li class="main-nav__item"><a href="#">Фотографии</a></li>
+            <li class="main-nav__item"><a href="#">Конкурс</a></li>
+            <li class="main-nav__item"><a href="#">HTML Academy</a></li>
+          </ul>
+        </nav>
+    </div>
+  </header>
 
   <main class="page-content">
     <section class="app-download">
-      <div class="app-download__wrapper">
+
+      <div c<div class="app-download__wrapper">
         <div class="app-download__photo">
-          <picture>
-            <source media="(min-width:1200px)" srcset="img/iphone-hand_d.png">
-            <source media="(min-width:700px)" srcset="img/iphone-hand_t.png">
-            <img src="img/iphone-hand_m.png" alt="">
-          </picture>
-        </div>
-
-        <div class="app-download__description">
-
-          <h2 class="app-download__slogan">Взгляните
-            на жизнь
-            иначе!</h2>
-          <button class="btn btn--app-download" type="button">Скачать приложение</button>
-          <ul class="app-download__icons">
-            <li class="app-download__icon"><img src="img/apple-logo.svg" width="47" height="56" alt="Apple"></li>
-            <li class="app-download__icon"><img src="img/android-logo.svg" width="43" height="47" alt=""></li>
-            <li class="app-download__icon"><img src="img/microsoft-logo.svg" width="44" height="41" alt=""></li>
-          </ul>
-          <p class="app-download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-        </div>
-
-      </div>
-    </section>
-
-
-
-<section class="features">
-    <div class="features__slogan">
-
-      <div class="features__slogan-w">
-        <div>Устали от серости мегаполиса?</div>
-        <div>Нам есть, что вам <span>предложить!</span></div>
-      </div>
-
-    </div>
-    <div class="features__list">
-
-
-      <div class="features__list-container">
-        <div class="features__item">
-          <div class="features__photo">
-            <img src="img/phone-screen-1_d.png" alt="">
-          </div>
-          <div class="features__text">
-            <span>Поднимает настроение</span>
-            Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
-          </div>
-        </div>
-
-        <div class="features__item">
-          <div class="features__photo">
-              <img src="img/phone-screen-2_d.png" alt="">
-          </div>
-          <div class="features__text">
-            <span>Меняет мир вокруг</span>
-            Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
-          </div>
-        </div>
-
-        <div class="features__item">
-
-            <picture class="features__photo">
-              <source media="(min-width:1200px)" srcset="img/phone-screen-3_d.png">
-              <source media="(min-width:700px)" srcset="img/phone-screen-3_t.png">
-              <img src="img/phone-screen-3_m.png" alt="">
+          <div class="app-download__photo-wrapper">
+            <picture>
+              <source media="(min-width:1200px)" srcset="img/iphone-hand_d.png">
+              <source media="(min-width:700px)" srcset="img/iphone-hand_t.png">
+              <img src="img/iphone-hand_m.png" alt="">
             </picture>
-
-          <div class="features__text">
-            <span>Заводит новых друзей</span>
-            Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых
           </div>
         </div>
-      </div>
 
-    </div>
+          <div class="app-download__description">
+            <div class="app-download__description-content">
+              <h2 class="app-download__slogan">Взгляните
+                на жизнь
+                иначе!</h2>
+              <button class="btn btn--app-download" type="button">Скачать приложение</button>
+              <ul class="app-download__icons">
+                <li class="app-download__icon"><img src="img/apple-logo.svg" width="47" height="56" alt="Apple"></li>
+                <li class="app-download__icon"><img src="img/android-logo.svg" width="43" height="47" alt=""></li>
+                <li class="app-download__icon"><img src="img/microsoft-logo.svg" width="44" height="41" alt=""></li>
+              </ul>
+              <p class="app-download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+            </div>
+          </div>
+
+        </div>
+            </section>
+
+
+
+        <section class="features">
+            <div class="features__slogan">
+
+        <div class="features__slogan-w">
+          <div>Устали от серости мегаполиса?</div>
+          <div>Нам есть, что вам <span>предложить!</span></div>
+        </div>
+
+            </div>
+            <div class="features__list">
+
+
+        <div class="features__list-container">
+          <div class="features__item">
+            <div class="features__photo">
+              <img src="img/phone-screen-1_d.png" alt="">
+            </div>
+            <div class="features__text">
+              <span>Поднимает настроение</span>
+              Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+            </div>
+          </div>
+
+          <div class="features__item">
+            <div class="features__photo">
+                <img src="img/phone-screen-2_d.png" alt="">
+            </div>
+            <div class="features__text">
+              <span>Меняет мир вокруг</span>
+              Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+            </div>
+          </div>
+
+          <div class="features__item">
+
+              <picture class="features__photo">
+                <source media="(min-width:1200px)" srcset="img/phone-screen-3_d.png">
+                <source media="(min-width:700px)" srcset="img/phone-screen-3_t.png">
+                <img src="img/phone-screen-3_m.png" alt="">
+              </picture>
+
+            <div class="features__text">
+              <span>Заводит новых друзей</span>
+              Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых
+            </div>
+          </div>
+        </div>
+      </div></div>
     </section>
   </main>
 
 <script>
-  var toggle = document.querySelector(".main-header__toggle");
+  var toggle = document.querySelector(".btn--toggle");
   var nav = document.querySelector(".main-header");
 
-  nav.classList.remove("main-nav--nojs");
+  nav.classList.remove("main-header--nojs");
 
   toggle.addEventListener("click", function(event) {
     event.preventDefault();
-    if (nav.classList.contains("main-nav--closed")) {
-      nav.classList.remove("main-nav--closed");
-      nav.classList.add("main-nav--opened");
+    if (nav.classList.contains("main-header--menu-closed")) {
+      nav.classList.remove("main-header--menu-closed");
+      nav.classList.add("main-header--menu-opened");
     } else {
-      nav.classList.remove("main-nav--opened");
-      nav.classList.add("main-nav--closed");
+      nav.classList.remove("main-header--menu-opened");
+      nav.classList.add("main-header--menu-closed");
     }
   });
 </script>

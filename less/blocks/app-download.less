@@ -1,18 +1,18 @@
 
 
 .app-download {
-
-  background-image: url(../../img/bg-mobile@1x.jpg);
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-  background-color: #1d2631;
-
-  &__wrapper {
-    .container();
-  }
+  margin-top: -69px;
 
   &__photo {
+    background-image: url(../../img/bg-mobile@1x.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    background-color: #1d2631;
+  }
+
+  &__photo-wrapper {
+    .container();
     position: relative;
     min-height: 460px;
     & img {
@@ -38,10 +38,15 @@
     margin: 0 18px;
   }
 
+
   &__description {
-    padding-top: 24px;
     background: #1d2631;
-    padding-bottom: 32px;
+  }
+
+  &__description-content {
+    .container();
+    padding-top: 27px;
+    padding-bottom: 30px;
   }
 
   &__slogan {
@@ -62,34 +67,48 @@
 @media @tablet-width {
 
   .app-download {
-    position: relative;
-    z-index: -10;
-    margin: auto;
+    margin-top: -110px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    background-color: #1d2631;
     background-image: url(../../img/bg-tablet@1x.jpg);
 
-
-    &__wrapper {
-      position: relative;
-      min-height: 730px;
+    &__photo {
+      background: none;
     }
 
+    &__wrapper {
+      .container ();
+      position: relative;
+      min-height: 728px;
+    }
 
-    &__photo {
+    &__photo-wrapper {
       position: absolute;
-      z-index: -1;
-      right: 0;
       bottom: 0;
+      left: 0;
       & img {
-        position: static;
-        display: block;
+        position: absolute;
+        bottom: 0;
+        left: auto;
+        right: 0;
       }
     }
 
     &__description {
-      padding-top: 208px;
-      margin-right: 320px;
       background: none;
     }
+
+    &__description-content {
+      position: relative;
+      z-index: 10;
+      margin: 0;
+      padding-top: 203px;
+      width: 100%;
+      padding-right: 320px;
+    }
+
 
     &__slogan {
       display: block;
@@ -122,21 +141,19 @@
       background-image: url(../../img/bg-desktop.jpg);
 
     &__wrapper {
-      position: relative;
+      min-height: 853px;
     }
 
-    &__photo {
-      right: 30px;
+    &__photo-wrapper {
 
       & img {
-        left: 345px;
+        right: 30px;
       }
     }
 
-    &__description {
-        padding-top: 220px;
-      margin-right: 640px;
-      background: none;
+    &__description-content {
+      padding-right: 640px;
+      padding-top: 219px;
     }
 
     &__slogan {
